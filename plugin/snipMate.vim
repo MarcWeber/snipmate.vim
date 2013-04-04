@@ -9,6 +9,8 @@
 "                :helptags ~/.vim/doc
 "                :h snipMate.txt
 
+echoe "Please update the repository source by editing the .git/config file. Upstream is at github.com/garbas/vim-snipmate only"
+
 if exists('loaded_snips') || &cp || version < 700
 	finish
 endif
